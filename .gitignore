@@ -3,3 +3,4 @@ bin/
 obj/
 Properties/
 PrepPeered.Api.sln
+PrepPeered.Api.csproj.user
