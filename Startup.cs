@@ -23,14 +23,15 @@ namespace PrepPeered.Api
         {
             services.AddDbContext<PrepPeeredDbContext>(
                 opt =>
-                    opt.UseInMemoryDatabase("PrepPeered"));
+                    opt.UseNpgsql(Configuration.GetConnectionString(nameof(PrepPeeredDbContext))));
 
             services.AddControllers();
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Prep-paired API", Version = "V1" });
-            });
+            services.AddSwaggerGen(
+                c =>
+                {
+                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Prep-paired API", Version = "V1" });
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,12 +46,12 @@ namespace PrepPeered.Api
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Prep-paired API V1");
-                c.RoutePrefix = string.Empty;
-            });
-
+            app.UseSwaggerUI(
+                c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Prep-paired API V1");
+                    c.RoutePrefix = string.Empty;
+                });
 
             app.UseRouting();
 
