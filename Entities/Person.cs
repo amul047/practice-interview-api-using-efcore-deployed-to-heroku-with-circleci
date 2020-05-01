@@ -6,7 +6,7 @@ namespace PrepPeered.Api.Entities
     {
         public string Name { get; set; }
 
-        public string LoginName { get; set; }
+        public string EmailAddress { get; set; }
 
         public bool IsRegistered { get; set; }
 
