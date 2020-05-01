@@ -18,4 +18,4 @@ RUN dotnet publish "PrepPeered.Api.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-CMD dotnet PrepPeered.Api.dll
+CMD ASPNETCORE_URLS=http://+:80 dotnet PrepPeered.Api.dll
