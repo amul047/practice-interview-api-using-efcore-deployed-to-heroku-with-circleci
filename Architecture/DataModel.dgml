@@ -1,71 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 @2 @11 Member=.ctor)" Category="CodeSchema_Method" Bounds="205.605469272976,265.96,72.7066666666666,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="Review" />
-    <Node Id="(@1 @2 @3 Member=.ctor)" Category="CodeSchema_Method" Bounds="42.7404692729759,40,93.8333333333334,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="Dashboard" />
-    <Node Id="(@1 @2 @6 Member=.ctor)" Category="CodeSchema_Method" Bounds="133.813175125226,271.079640204192,84.1033333333334,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="Interview" UseManualLocation="True" />
-    <Node Id="(@1 @2 Type=Industry)" Category="CodeSchema_Class" Bounds="27.7916666666668,506.92,103.98,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Industry" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Industry" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Industry.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=25)" />
-    <Node Id="(@1 @2 Type=SeniorityLevel)" Category="CodeSchema_Class" Bounds="162.688333333333,506.92,134.186666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="SeniorityLevel" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SeniorityLevel" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/SeniorityLevel.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=31)" />
-    <Node Id="@10" Category="CodeSchema_Class" Bounds="185.955,396.92,111.653333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Reminder" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Reminder" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Reminder.cs StartLineNumber=7 StartCharacterOffset=17 EndLineNumber=7 EndCharacterOffset=25)" />
-    <Node Id="@12" Category="CodeSchema_Class" Bounds="185.605469272976,225.96,254.352394787382,140.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Review" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" Group="Expanded" Icon="CodeSchema_Class" Label="Review" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Review.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=23)" />
-    <Node Id="@13" Category="CodeSchema_Class" Bounds="0,396.92,123.563333333334,25" CodeSchemaProperty_IsPublic="True" CommonLabel="SetupCheck" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SetupCheck" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/SetupCheck.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=27)" />
-    <Node Id="@14" Category="CodeSchema_Property" Bounds="280.815569912608,327.039640204192,119.105728120715,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Interviewee" UseManualLocation="True" />
-    <Node Id="@15" Category="CodeSchema_Property" Bounds="133.813175125226,327.039640204192,117.002394787382,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Interviewer" UseManualLocation="True" />
-    <Node Id="@16" Category="CodeSchema_Property" Bounds="308.312135939643,265.96,111.645728120715,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Interviews" />
-    <Node Id="@17" Category="CodeSchema_Property" Bounds="42.7404692729759,150.96,141.929061454048,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="LastSetupCheck" />
-    <Node Id="@18" Category="CodeSchema_Property" Bounds="42.7404692729759,95.9600000000001,110.802394787381,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="MyDetails" />
-    <Node Id="@19" Category="CodeSchema_Property" Bounds="133.813175125226,382.039640204192,145.759061454048,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="OverallFeedback" UseManualLocation="True" />
-    <Node Id="@20" Category="CodeSchema_Property" Bounds="247.916508458559,271.079640204192,111.542394787382,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Questions" UseManualLocation="True" />
-    <Node Id="@21" Category="CodeSchema_Property" Bounds="205.605469272976,321.92,114.195728120715,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Reminders" />
-    <Node Id="@22" Category="CodeSchema_Property" Bounds="166.573802606309,40,100.249061454048,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Reviews" />
-    <Node Id="@4" Category="CodeSchema_Class" Bounds="22.7404692729759,0,264.082394787382,195.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Dashboard" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="4" Group="Expanded" Icon="CodeSchema_Class" Label="Dashboard" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Dashboard.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=26)" />
-    <Node Id="@5" Category="CodeSchema_Class" Bounds="327.208333333333,506.92,111.146666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Feedback" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Feedback" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Feedback.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=25)" />
-    <Node Id="@7" Category="CodeSchema_Class" Bounds="328.23,396.92,109.103333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Interview" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="5" Group="Collapsed" Icon="CodeSchema_Class" Label="Interview" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Interview.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=26)" />
-    <Node Id="@8" Category="CodeSchema_Class" Bounds="106.461666666667,451.92,96.64,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Person" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Person" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Person.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=23)" />
-    <Node Id="@9" Category="CodeSchema_Class" Bounds="414.281666666667,451.92,109,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Question" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Question" SourceLocation="(Assembly=file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/Entities/Question.cs StartLineNumber=2 StartCharacterOffset=17 EndLineNumber=2 EndCharacterOffset=25)" />
+    <Node Id="(@1 @3 @12 Member=.ctor)" Category="CodeSchema_Method" Bounds="263.742135939643,265.96,72.7066666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="Review" />
+    <Node Id="(@1 @3 @6 Member=.ctor)" Category="CodeSchema_Method" Bounds="95.9488026063092,40,93.8333333333334,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="Dashboard" />
+    <Node Id="(@1 @3 Type=Industry)" Category="CodeSchema_Class" Bounds="-7.105427357601E-15,506.92,103.98,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Industry" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Industry" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Industry.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=25)" />
+    <Node Id="(@1 @3 Type=SeniorityLevel)" Category="CodeSchema_Class" Bounds="134.896666666667,506.92,134.186666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="SeniorityLevel" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SeniorityLevel" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/SeniorityLevel.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=31)" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="66.67,451.92,96.64,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Person" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Person" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Person.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=23)" />
+    <Node Id="@11" Category="CodeSchema_Class" Bounds="386.49,451.92,109,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Question" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Question" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Question.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=25)" />
+    <Node Id="@13" Category="CodeSchema_Class" Bounds="243.742135939643,225.96,222.495728120715,140.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Review" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" Group="Expanded" Icon="CodeSchema_Class" Label="Review" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Review.cs StartLineNumber=5 StartCharacterOffset=17 EndLineNumber=5 EndCharacterOffset=23)" />
+    <Node Id="@14" Category="CodeSchema_Class" Bounds="146.208333333333,396.92,123.563333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="SetupCheck" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="SetupCheck" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/SetupCheck.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=27)" />
+    <Node Id="@15" Category="CodeSchema_Class" Bounds="440.366666666667,396.92,77.2466666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Tip" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Tip" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Tip.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=20)" />
+    <Node Id="@16" Category="CodeSchema_Property" Bounds="263.742135939643,321.92,111.645728120715,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Interviews" />
+    <Node Id="@17" Category="CodeSchema_Property" Bounds="95.9488026063092,150.96,141.929061454048,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="LastSetupCheck" />
+    <Node Id="@18" Category="CodeSchema_Property" Bounds="95.9488026063092,95.96,110.802394787382,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="MyDetails" />
+    <Node Id="@19" Category="CodeSchema_Property" Bounds="219.782135939643,40,100.249061454048,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Reviews" />
+    <Node Id="@20" Category="CodeSchema_Property" Bounds="366.448802606309,265.96,79.7890614540481,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Tips" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="75.9488026063092,0,264.082394787382,195.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Dashboard" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="4" Group="Expanded" Icon="CodeSchema_Class" Label="Dashboard" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Dashboard.cs StartLineNumber=5 StartCharacterOffset=17 EndLineNumber=5 EndCharacterOffset=26)" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="299.416666666667,506.92,111.146666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Feedback" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Feedback" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Feedback.cs StartLineNumber=4 StartCharacterOffset=17 EndLineNumber=4 EndCharacterOffset=25)" />
+    <Node Id="@9" Category="CodeSchema_Class" Bounds="300.438333333333,396.92,109.103333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Interview" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Interview" SourceLocation="(Assembly=file:///C:/src/github/amul047/prep-peered-api/Entities/Interview.cs StartLineNumber=5 StartCharacterOffset=17 EndLineNumber=5 EndCharacterOffset=26)" />
   </Nodes>
   <Links>
-    <Link Source="@12" Target="(@1 @2 @11 Member=.ctor)" Category="Contains" FetchingParent="@12" />
-    <Link Source="@12" Target="@16" Category="Contains" FetchingParent="@12" />
-    <Link Source="@12" Target="@21" Category="Contains" FetchingParent="@12" />
-    <Link Source="@13" Target="@8" Category="References" Bounds="82.9180297851563,421.920013427734,42.9805908203125,25.4186096191406" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@10" Target="(@1 @3 Type=Industry)" Category="References" Bounds="73.0880355834961,476.920013427734,27.5837860107422,24.0810546875" IsSourceVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@14" Target="@8" Category="References" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@10" Target="(@1 @3 Type=SeniorityLevel)" Category="References" Bounds="134.762725830078,476.920013427734,39.8472290039063,25.1907653808594" IsSourceVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@15" Target="@8" Category="References" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@11" Target="@8" Category="References" Bounds="382.117492675781,476.920013427734,39.3270568847656,25.1510009765625" IsSourceVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@16" Target="@7" Category="References" Bounds="205.013875152604,235.96,38.2645056631114,97.5812895302946" IsSourceVirtualized="True" Weight="4" />
-    <Link Source="@17" Target="@13" Category="References" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@13" Target="(@1 @3 @12 Member=.ctor)" Category="Contains" FetchingParent="@13" />
+    <Link Source="@13" Target="@16" Category="Contains" FetchingParent="@13" />
+    <Link Source="@13" Target="@20" Category="Contains" FetchingParent="@13" />
+    <Link Source="@14" Target="@10" Category="References" Bounds="143.873046875,421.920013427734,42.9805908203125,25.4186096191406" IsSourceVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@18" Target="@8" Category="References" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@16" Target="@9" Category="References" Bounds="325.469166666667,346.92,19.7728705925517,41.8621113462632" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@17" Target="@14" Category="References" Bounds="169.000901772646,175.96,35.4190126475534,212.08294289034" IsSourceVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@19" Target="@5" Category="References" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@18" Target="@10" Category="References" Bounds="117.181386826595,120.96,32.8917843162304,322.006588151963" IsSourceVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@20" Target="@9" Category="References" IsSourceVirtualized="True" Weight="4" />
-    <Link Source="@21" Target="@10" Category="References" Bounds="77.9229782600992,291.91992614052,53.6717843716449,44.2732157230244" IsSourceVirtualized="True" Weight="4" />
-    <Link Source="@22" Target="@12" Category="References" IsSourceVirtualized="True" Weight="4" />
-    <Link Source="@4" Target="(@1 @2 @3 Member=.ctor)" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@17" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@18" Category="Contains" FetchingParent="@4" />
-    <Link Source="@4" Target="@22" Category="Contains" FetchingParent="@4" />
-    <Link Source="@7" Target="(@1 @2 @6 Member=.ctor)" Category="Contains" FetchingParent="@7" />
-    <Link Source="@7" Target="@14" Category="Contains" FetchingParent="@7" />
-    <Link Source="@7" Target="@15" Category="Contains" FetchingParent="@7" />
+    <Link Source="@19" Target="@13" Category="References" Bounds="274.26651608319,65,53.1769327272198,152.462068201505" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@20" Target="@15" Category="References" Bounds="413.277384443087,290.96,54.4127794027093,98.0898080744079" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@7" Target="(@1 @3 @6 Member=.ctor)" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@17" Category="Contains" FetchingParent="@7" />
+    <Link Source="@7" Target="@18" Category="Contains" FetchingParent="@7" />
     <Link Source="@7" Target="@19" Category="Contains" FetchingParent="@7" />
-    <Link Source="@7" Target="@20" Category="Contains" FetchingParent="@7" />
-    <Link Source="@8" Target="(@1 @2 Type=Industry)" Category="References" Bounds="104.084762573242,476.920013427734,33.6514434814453,24.6777038574219" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@9" Target="@10" Category="References" Bounds="170.847442626953,421.319885253906,132.215789794922,30.2994384765625" IsSourceVirtualized="True" Weight="8">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@8" Target="(@1 @2 Type=SeniorityLevel)" Category="References" Bounds="171.827117919922,476.920013427734,33.6514434814453,24.6777038574219" IsSourceVirtualized="True" Weight="4">
-      <Category Ref="CodeSchema_ReturnTypeLink" />
-    </Link>
-    <Link Source="@9" Target="@5" Category="References" Bounds="409.9091796875,476.920013427734,39.3270263671875,25.1510009765625" IsSourceVirtualized="True" Weight="4">
+    <Link Source="@9" Target="@11" Category="References" Bounds="374.535461425781,421.920013427734,39.3270263671875,25.1510009765625" IsSourceVirtualized="True" Weight="4" />
+    <Link Source="@9" Target="@8" Category="References" Bounds="354.989990234375,421.920013427734,0,76" IsSourceVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
   </Links>
@@ -107,7 +94,6 @@
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
     <Property Id="TargetType" DataType="System.Type" />
-    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
@@ -121,28 +107,23 @@
     <Name Id="Type" Label="Type" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
-    <Alias n="1" Uri="Assembly=$(24fdf9df-a141-46ef-aa1c-3e1587e817a0.OutputPathUri)" />
-    <Alias n="2" Id="Namespace=PrepPeered.Api.Entities" />
-    <Alias n="3" Id="Type=Dashboard" />
-    <Alias n="4" Id="(@1 @2 @3)" />
-    <Alias n="5" Id="(@1 @2 Type=Feedback)" />
-    <Alias n="6" Id="Type=Interview" />
-    <Alias n="7" Id="(@1 @2 @6)" />
-    <Alias n="8" Id="(@1 @2 Type=Person)" />
-    <Alias n="9" Id="(@1 @2 Type=Question)" />
-    <Alias n="10" Id="(@1 @2 Type=Reminder)" />
-    <Alias n="11" Id="Type=Review" />
-    <Alias n="12" Id="(@1 @2 @11)" />
-    <Alias n="13" Id="(@1 @2 Type=SetupCheck)" />
-    <Alias n="14" Id="(@1 @2 @6 Member=Interviewee)" />
-    <Alias n="15" Id="(@1 @2 @6 Member=Interviewer)" />
-    <Alias n="16" Id="(@1 @2 @11 Member=Interviews)" />
-    <Alias n="17" Id="(@1 @2 @3 Member=LastSetupCheck)" />
-    <Alias n="18" Id="(@1 @2 @3 Member=MyDetails)" />
-    <Alias n="19" Id="(@1 @2 @6 Member=OverallFeedback)" />
-    <Alias n="20" Id="(@1 @2 @6 Member=Questions)" />
-    <Alias n="21" Id="(@1 @2 @11 Member=Reminders)" />
-    <Alias n="22" Id="(@1 @2 @3 Member=Reviews)" />
+    <Alias n="1" Uri="Assembly=$(2fae9158-96bc-4151-a7d8-1fb16dcdf9ee.OutputPathUri)" />
+    <Alias n="3" Id="Namespace=PrepPeered.Api.Entities" />
+    <Alias n="6" Id="Type=Dashboard" />
+    <Alias n="7" Id="(@1 @3 @6)" />
+    <Alias n="8" Id="(@1 @3 Type=Feedback)" />
+    <Alias n="9" Id="(@1 @3 Type=Interview)" />
+    <Alias n="10" Id="(@1 @3 Type=Person)" />
+    <Alias n="11" Id="(@1 @3 Type=Question)" />
+    <Alias n="12" Id="Type=Review" />
+    <Alias n="13" Id="(@1 @3 @12)" />
+    <Alias n="14" Id="(@1 @3 Type=SetupCheck)" />
+    <Alias n="15" Id="(@1 @3 Type=Tip)" />
+    <Alias n="16" Id="(@1 @3 @12 Member=Interviews)" />
+    <Alias n="17" Id="(@1 @3 @6 Member=LastSetupCheck)" />
+    <Alias n="18" Id="(@1 @3 @6 Member=MyDetails)" />
+    <Alias n="19" Id="(@1 @3 @6 Member=Reviews)" />
+    <Alias n="20" Id="(@1 @3 @12 Member=Tips)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
@@ -362,6 +343,7 @@
     </Style>
   </Styles>
   <Paths>
-    <Path Id="24fdf9df-a141-46ef-aa1c-3e1587e817a0.OutputPathUri" Value="file:///C:/Users/Aamir.Mulla/source/repos/PrepPeered.Api/bin/Debug/netcoreapp3.1/PrepPeered.Api.dll" />
+    <Path Id="24fdf9df-a141-46ef-aa1c-3e1587e817a0.OutputPath" Value="C:\Users\Aamir.Mulla\source\repos\PrepPeered.Api\bin\Debug\netcoreapp3.1\PrepPeered.Api.dll" />
+    <Path Id="2fae9158-96bc-4151-a7d8-1fb16dcdf9ee.OutputPathUri" Value="file:///C:/src/github/amul047/prep-peered-api/bin/Debug/netcoreapp3.1/PrepPeered.Api.dll" />
   </Paths>
 </DirectedGraph>
