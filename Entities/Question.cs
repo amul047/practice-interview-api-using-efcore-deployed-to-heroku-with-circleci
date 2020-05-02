@@ -4,6 +4,6 @@ namespace PrepPeered.Api.Entities
 {
     public class Question : ReportableEntity
     {
-        public Feedback Feedback { get; set; }
+        public virtual Feedback Feedback { get; set; }
     }
 }

@@ -5,10 +5,10 @@ namespace PrepPeered.Api.Entities
 {
     public class Dashboard : Entity
     {
-        public IEnumerable<Review> Reviews { get; set; }
+        public virtual IEnumerable<Review> Reviews { get; set; }
 
-        public Person MyDetails { get; set; }
+        public virtual Person MyDetails { get; set; }
 
-        public SetupCheck LastSetupCheck { get; set; }
+        public virtual SetupCheck LastSetupCheck { get; set; }
     }
 }

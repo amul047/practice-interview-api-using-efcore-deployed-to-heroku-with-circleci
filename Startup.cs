@@ -22,8 +22,11 @@ namespace PrepPeered.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<PrepPeeredDbContext>(
-                opt =>
-                    opt.UseNpgsql(Configuration.GetConnectionString(nameof(PrepPeeredDbContext))));
+                dbContextOptionsBuilder =>
+                {
+                    dbContextOptionsBuilder.UseNpgsql(Configuration.GetConnectionString(nameof(PrepPeeredDbContext)));
+                    dbContextOptionsBuilder.UseLazyLoadingProxies();
+                });
 
             services.AddControllers();
 

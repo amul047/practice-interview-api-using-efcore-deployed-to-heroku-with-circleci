@@ -10,8 +10,8 @@ namespace PrepPeered.Api.Entities
 
         public bool IsRegistered { get; set; }
 
-        public Industry DesiredIndustry { get; set; }
+        public virtual Industry DesiredIndustry { get; set; }
 
-        public SeniorityLevel DesiredSeniorityLevel { get; set; }
+        public virtual SeniorityLevel DesiredSeniorityLevel { get; set; }
     }
 }

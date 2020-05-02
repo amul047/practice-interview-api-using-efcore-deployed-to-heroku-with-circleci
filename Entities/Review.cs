@@ -5,8 +5,8 @@ namespace PrepPeered.Api.Entities
 {
     public class Review : Entity
     {
-        public IEnumerable<Interview> Interviews { get; set; }
+        public virtual IEnumerable<Interview> Interviews { get; set; }
 
-        public IEnumerable<Tip> Tips { get; set; }
+        public virtual IEnumerable<Tip> Tips { get; set; }
     }
 }

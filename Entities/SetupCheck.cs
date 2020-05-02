@@ -4,7 +4,7 @@ namespace PrepPeered.Api.Entities
 {
     public class SetupCheck : ReportableEntity
     {
-        public Person Interviewee { get; set; }
+        public virtual Person Interviewee { get; set; }
 
         public bool IsVideoOn { get; set; }
 

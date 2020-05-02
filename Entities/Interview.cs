@@ -5,12 +5,12 @@ namespace PrepPeered.Api.Entities
 {
     public class Interview : ReportableEntity
     {
-        public Person Interviewee { get; set; }
+        public virtual Person Interviewee { get; set; }
 
-        public Person Interviewer { get; set; }
+        public virtual Person Interviewer { get; set; }
 
-        public IEnumerable<Question> Questions { get; set; }
+        public virtual IEnumerable<Question> Questions { get; set; }
 
-        public Feedback OverallFeedback { get; set; }
+        public virtual Feedback OverallFeedback { get; set; }
     }
 }
