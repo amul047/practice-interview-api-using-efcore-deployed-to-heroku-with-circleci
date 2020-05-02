@@ -7,6 +7,6 @@ namespace PrepPeered.Api.Entities
     {
         public IEnumerable<Interview> Interviews { get; set; }
 
-        public IEnumerable<Reminder> Reminders { get; set; }
+        public IEnumerable<Tip> Tips { get; set; }
     }
 }

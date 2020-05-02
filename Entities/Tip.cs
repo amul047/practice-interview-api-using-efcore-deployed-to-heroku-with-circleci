@@ -2,7 +2,7 @@
 
 namespace PrepPeered.Api.Entities
 {
-    public class Reminder : Entity
+    public class Tip : Entity
     {
         public string Text { get; set; }
     }

@@ -21,7 +21,7 @@ namespace PrepPeered.Api.Data
 
         public DbSet<Question> Questions { get; set; }
 
-        public DbSet<Reminder> Reminders { get; set; }
+        public DbSet<Tip> Tips { get; set; }
 
         public DbSet<Review> Reviews { get; set; }
 
