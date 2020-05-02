@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using PrepPeered.Api.Data;
@@ -9,9 +10,10 @@ using PrepPeered.Api.Data;
 namespace PrepPeered.Api.Migrations
 {
     [DbContext(typeof(PrepPeeredDbContext))]
-    partial class PrepPeeredDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200502022037_ChangingRemindersToTips")]
+    partial class ChangingRemindersToTips
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
